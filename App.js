@@ -10,7 +10,7 @@
 import React, {Component} from 'react';
 import { Provider } from 'react-redux';
 
-import SwitchNavigator from './src/screens/onboarding/SwitchNavigator';
+import SwitchNavigator from './src/screens/onboarding/OnboardingNavigator';
 
 import store from 'library/redux/store';
 
