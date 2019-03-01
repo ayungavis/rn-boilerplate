@@ -14,8 +14,8 @@ const BottomNavigator = createMaterialBottomTabNavigator({
 	defaultNavigationOptions: ({ navigation }) => ({
 		tabBarIcon: ({ focused, horizontal, tintColor }) => {
 			const { routeName } = navigation.state;
-			const IconComponent = FontAwesome5;
-			const iconName;
+			let IconComponent = FontAwesome5;
+			let iconName;
 			if (routeName === 'Home') {
 				iconName = 'Home';
 			}
